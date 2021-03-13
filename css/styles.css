@@ -1,14 +1,90 @@
-#title {
-  background-color: #ff4c68;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;                     /* #fff = white, #000 = black */
+}
+
+/* Download Buttons */
+
+.downlload-button {
+  margin: 5% 3% 5% 0;
+}
+
 .container-fluid {
   padding: 3% 15%;
+}
+
+/* Title Image */
+
+.dog-phone {
+  left: 10%;
+  margin-top: 5%;
+  position: relative;
+  transform: rotate(20deg);
+  width: 60%;
+
+}
+
+.intro {
+  margin-top: 2.5rem;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  /* font-family: "Montserrat-Light"; už nefunguje */
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/*  fs a fw má Angela zde - asi je to jedno */
+/* .nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}   */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
